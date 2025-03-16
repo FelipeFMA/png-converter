@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to PNG Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Convert Image to PNG</h1>
+        <div id="drop-area" for="image-input">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18c0 .55.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1H6c-.55 0-1 .45-1 1z" />
+            </svg>
+            <label id="choose-file-button">Click here or drop an image</label>
+        </div>
+        <input type="file" id="image-input" accept="image/*" style="display: none;">
+        <canvas id="canvas" style="display: none;"></canvas>
+        <a id="download-link" style="display: none;" download="converted.png">Download PNG</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
