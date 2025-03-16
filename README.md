@@ -2,6 +2,8 @@
 
 This project is a simple web application that converts images to PNG format.
 
+![image](https://github.com/user-attachments/assets/502651b3-4313-490d-94c0-c3288037dadb)
+
 ## Usage
 
 1.  Open `index.html` in your browser.
